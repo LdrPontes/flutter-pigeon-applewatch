@@ -24,7 +24,7 @@ private class WatchCounterHostAPIImpl: WatchCounterHostAPI {
     }
 }
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate {
     var session: WCSession?
     var flutterWatchAPI: WatchCounterFlutterAPI?
